@@ -19,3 +19,5 @@ Pass the `CloudflareBindings` as generics when instantiation `Hono`:
 // src/index.ts
 const app = new Hono<{ Bindings: CloudflareBindings }>()
 ```
+
+app will need to store password somewhere so its only entered once, then send that password everytime it wants to edit
