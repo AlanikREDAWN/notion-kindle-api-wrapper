@@ -27,7 +27,9 @@
 			"zone_name": "lilia.rocks",
 			"custom_domain": true
 		}
-	]
+	],
+	"workers_dev": true,
+	"preview_urls": true
 	// "compatibility_flags": [
 	//   "nodejs_compat"
 	// ],
